@@ -1,0 +1,187 @@
+{
+  "exportInfo": {
+    "type": "telemetry",
+    "exportDate": "2025-06-20T14:30:45.123Z",
+    "dataPoints": 50,
+    "duration": "5 minutes",
+    "droneId": "drone-001"
+  },
+  "data": [
+    {
+      "timestamp": "2025-06-20T14:25:00.000Z",
+      "telemetry": {
+        "battery": 100,
+        "signal": 98,
+        "temperature": 22.1,
+        "speed": 0,
+        "altitude": 100,
+        "heading": 0
+      },
+      "position": {
+        "x": 50,
+        "y": 200,
+        "z": 100
+      }
+    },
+    {
+      "timestamp": "2025-06-20T14:25:05.000Z",
+      "telemetry": {
+        "battery": 99,
+        "signal": 97,
+        "temperature": 22.3,
+        "speed": 15.2,
+        "altitude": 102,
+        "heading": 12.5
+      },
+      "position": {
+        "x": 65,
+        "y": 205,
+        "z": 102
+      }
+    },
+    {
+      "timestamp": "2025-06-20T14:25:10.000Z",
+      "telemetry": {
+        "battery": 98,
+        "signal": 96,
+        "temperature": 22.5,
+        "speed": 32.8,
+        "altitude": 105,
+        "heading": 25.3
+      },
+      "position": {
+        "x": 95,
+        "y": 215,
+        "z": 105
+      }
+    },
+    {
+      "timestamp": "2025-06-20T14:25:15.000Z",
+      "telemetry": {
+        "battery": 97,
+        "signal": 95,
+        "temperature": 22.8,
+        "speed": 45.6,
+        "altitude": 108,
+        "heading": 35.7
+      },
+      "position": {
+        "x": 125,
+        "y": 225,
+        "z": 108
+      }
+    },
+    {
+      "timestamp": "2025-06-20T14:25:20.000Z",
+      "telemetry": {
+        "battery": 96,
+        "signal": 94,
+        "temperature": 23.1,
+        "speed": 58.9,
+        "altitude": 110,
+        "heading": 42.1
+      },
+      "position": {
+        "x": 165,
+        "y": 235,
+        "z": 110
+      }
+    },
+    {
+      "timestamp": "2025-06-20T14:25:25.000Z",
+      "telemetry": {
+        "battery": 95,
+        "signal": 93,
+        "temperature": 23.4,
+        "speed": 62.3,
+        "altitude": 112,
+        "heading": 48.9
+      },
+      "position": {
+        "x": 205,
+        "y": 245,
+        "z": 112
+      }
+    },
+    {
+      "timestamp": "2025-06-20T14:25:30.000Z",
+      "telemetry": {
+        "battery": 94,
+        "signal": 92,
+        "temperature": 23.7,
+        "speed": 59.7,
+        "altitude": 115,
+        "heading": 52.3
+      },
+      "position": {
+        "x": 245,
+        "y": 255,
+        "z": 115
+      }
+    },
+    {
+      "timestamp": "2025-06-20T14:25:35.000Z",
+      "telemetry": {
+        "battery": 93,
+        "signal": 91,
+        "temperature": 24.0,
+        "speed": 55.1,
+        "altitude": 118,
+        "heading": 58.7
+      },
+      "position": {
+        "x": 285,
+        "y": 265,
+        "z": 118
+      }
+    },
+    {
+      "timestamp": "2025-06-20T14:25:40.000Z",
+      "telemetry": {
+        "battery": 92,
+        "signal": 90,
+        "temperature": 24.3,
+        "speed": 51.8,
+        "altitude": 120,
+        "heading": 65.2
+      },
+      "position": {
+        "x": 325,
+        "y": 275,
+        "z": 120
+      }
+    },
+    {
+      "timestamp": "2025-06-20T14:25:45.000Z",
+      "telemetry": {
+        "battery": 91,
+        "signal": 89,
+        "temperature": 24.6,
+        "speed": 48.9,
+        "altitude": 122,
+        "heading": 71.8
+      },
+      "position": {
+        "x": 365,
+        "y": 285,
+        "z": 122
+      }
+    },
+    {
+      "timestamp": "2025-06-20T14:25:50.000Z",
+      "telemetry": {
+        "battery": 90,
+        "signal": 88,
+        "temperature": 24.9,
+        "speed": 46.2,
+        "altitude": 125,
+        "heading": 78.5
+      },
+      "position": {
+        "x": 405,
+        "y": 295,
+        "z": 125
+      }
+    }
+  ]
+}

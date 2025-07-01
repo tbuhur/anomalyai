@@ -1,0 +1,187 @@
+{
+  "exportInfo": {
+    "type": "anomalies",
+    "exportDate": "2025-06-20T14:30:45.123Z",
+    "currentMode": "altitude",
+    "totalAnomalies": 5,
+    "timeRange": {
+      "start": "2025-06-20T14:00:00.000Z",
+      "end": "2025-06-20T14:30:00.000Z"
+    }
+  },
+  "data": [
+    {
+      "id": "anomaly-1718896800123",
+      "timestamp": "2025-06-20T14:05:30.123Z",
+      "type": "battery_warning",
+      "severity": "medium",
+      "description": "Battery level below warning threshold",
+      "value": 89,
+      "threshold": 90,
+      "action": "monitor",
+      "resolved": true,
+      "resolvedAt": "2025-06-20T14:06:15.456Z",
+      "duration": 45.333,
+      "context": {
+        "missionId": "mission-surveillance-001",
+        "flightTime": 330,
+        "position": {
+          "x": 125,
+          "y": 180,
+          "z": 95
+        },
+        "weather": {
+          "windSpeed": 3.2,
+          "temperature": 22.8,
+          "humidity": 65
+        },
+        "systemLoad": 78
+      }
+    },
+    {
+      "id": "anomaly-1718897200456",
+      "timestamp": "2025-06-20T14:12:45.456Z",
+      "type": "signal_degradation",
+      "severity": "low",
+      "description": "Signal strength temporarily decreased",
+      "value": 82,
+      "threshold": 85,
+      "action": "continue_mission",
+      "resolved": true,
+      "resolvedAt": "2025-06-20T14:13:20.789Z",
+      "duration": 35.333,
+      "context": {
+        "missionId": "mission-surveillance-001",
+        "flightTime": 765,
+        "position": {
+          "x": 245,
+          "y": 165,
+          "z": 88
+        },
+        "cause": "building_interference",
+        "nearbyObstacles": [
+          {
+            "type": "building",
+            "distance": 45,
+            "height": 85
+          }
+        ]
+      }
+    },
+    {
+      "id": "anomaly-1718897600789",
+      "timestamp": "2025-06-20T14:18:12.789Z",
+      "type": "altitude_deviation",
+      "severity": "high",
+      "description": "Altitude significantly below target",
+      "value": 72,
+      "threshold": 90,
+      "action": "adjust_altitude",
+      "resolved": true,
+      "resolvedAt": "2025-06-20T14:19:05.234Z",
+      "duration": 52.445,
+      "context": {
+        "missionId": "mission-surveillance-001",
+        "flightTime": 1092,
+        "position": {
+          "x": 295,
+          "y": 145,
+          "z": 72
+        },
+        "targetAltitude": 95,
+        "deviation": -23,
+        "possibleCause": "wind_downdraft",
+        "correctionAction": "motor_power_increased"
+      }
+    },
+    {
+      "id": "anomaly-1718898000234",
+      "timestamp": "2025-06-20T14:25:18.234Z",
+      "type": "speed_anomaly",
+      "severity": "medium",
+      "description": "Speed significantly below expected",
+      "value": 35.2,
+      "threshold": 50,
+      "action": "adjust_speed",
+      "resolved": true,
+      "resolvedAt": "2025-06-20T14:26:02.567Z",
+      "duration": 44.333,
+      "context": {
+        "missionId": "mission-surveillance-001",
+        "flightTime": 1518,
+        "position": {
+          "x": 385,
+          "y": 125,
+          "z": 98
+        },
+        "expectedSpeed": 60,
+        "deviation": -24.8,
+        "possibleCause": "headwind_resistance",
+        "weatherConditions": {
+          "windSpeed": 6.8,
+          "windDirection": 180,
+          "headwindComponent": 6.2
+        }
+      }
+    },
+    {
+      "id": "anomaly-1718898400567",
+      "timestamp": "2025-06-20T14:29:45.567Z",
+      "type": "temperature_high",
+      "severity": "low",
+      "description": "Operating temperature above normal",
+      "value": 28.5,
+      "threshold": 27,
+      "action": "monitor",
+      "resolved": false,
+      "duration": 45.556,
+      "context": {
+        "missionId": "mission-surveillance-001",
+        "flightTime": 1785,
+        "position": {
+          "x": 425,
+          "y": 115,
+          "z": 102
+        },
+        "ambientTemperature": 25.3,
+        "systemLoad": 89,
+        "operatingTime": 29.75,
+        "coolingEfficiency": 82,
+        "recommendedAction": "reduce_system_load"
+      }
+    }
+  ],
+  "summary": {
+    "totalAnomalies": 5,
+    "resolvedAnomalies": 4,
+    "activeAnomalies": 1,
+    "severityBreakdown": {
+      "high": 1,
+      "medium": 2,
+      "low": 2
+    },
+    "typeBreakdown": {
+      "battery_warning": 1,
+      "signal_degradation": 1,
+      "altitude_deviation": 1,
+      "speed_anomaly": 1,
+      "temperature_high": 1
+    },
+    "averageResolutionTime": 43.49,
+    "longestResolutionTime": 52.445,
+    "shortestResolutionTime": 35.333,
+    "systemReliability": 94.2,
+    "maintenanceRecommendations": [
+      "Check cooling system efficiency",
+      "Calibrate altitude sensors",
+      "Inspect motor performance"
+    ]
+  },
+  "metadata": {
+    "dataQuality": "high",
+    "completeness": 100,
+    "accuracy": 98.5,
+    "lastCalibration": "2025-06-15T10:00:00.000Z",
+    "nextScheduledMaintenance": "2025-07-01T09:00:00.000Z"
+  }
+}
